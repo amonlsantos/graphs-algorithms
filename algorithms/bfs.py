@@ -1,11 +1,11 @@
-def BFS(graphDict, nodeIndex):
+def bfs(graphDict, vertexIndex):
     analisedNodes = []
     queue = []
     FIRST_POSITION = 0
-    queue.append(nodeIndex)
+    queue.append(vertexIndex)
     
     notVisited = list(graphDict.keys())
-    notVisited.remove(nodeIndex)
+    notVisited.remove(vertexIndex)
     
     while len(queue) != 0:
         for node in graphDict[queue[FIRST_POSITION]]:           
@@ -22,4 +22,4 @@ def BFS(graphDict, nodeIndex):
             
     print(analisedNodes)
     
-BFS({0: [2, 4], 1: [2, 4], 2: [0, 1, 4], 3: [], 4: [0, 1, 2, 5, 6], 5: [4, 6], 6: [4, 5]}, 0)
+bfs({0: [2, 4], 1: [2, 4], 2: [0, 1, 4], 3: [], 4: [0, 1, 2, 5, 6], 5: [4, 6], 6: [4, 5]}, 0)
