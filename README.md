@@ -1,6 +1,6 @@
 # Graph Algorithms with Python & NumPy
 
-[![pt](https://img.shields.io/badge/lang-pt_br-green.svg)](https://github.com/amonlsantos/graphs-algorithms/blob/main/README.pt-br.m)
+[![pt](https://img.shields.io/badge/lang-pt_br-green.svg)](https://github.com/amonlsantos/graphs-algorithms/blob/main/README.pt-br.md)
 
 ## Description
 
